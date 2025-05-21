@@ -47,9 +47,3 @@ A responsive, modern business website template built with HTML and CSS. This tem
 - Media queries for responsive design
 - CSS transitions for smooth animations
 - BEM methodology for CSS class naming
-
-## 🙏 Acknowledgments
-
-- Font Awesome for the icons
-- Google Fonts for the Poppins font family
-- All the open-source tools and libraries used in this project
