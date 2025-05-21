@@ -1,0 +1,715 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #282938;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 74px;
+  font-weight: 600;
+  color: #282938;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #282938;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #282938;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #282938;
+}
+
+h6 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #282938;
+}
+
+/******************************* Navbar *******************************/
+.navbar {
+  background: #1c1e53;
+  padding: 16px 0;
+}
+
+.navbar__logo {
+  margin-right: 452px;
+}
+
+.navbar__menu__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar__menu__list li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navbar__menu__list li a {
+  color: #bbbbcb;
+  text-decoration: none;
+}
+
+.navbar__menu__list li a:hover,
+.navbar__menu__list li a:focus {
+  color: #fff;
+}
+
+li.navbar__menu__list-active a {
+  color: #fff;
+}
+
+.navbar__button-contact {
+  display: inline-block;
+  padding: 16px 48px;
+  margin-left: 12px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+/******************************* Banner *******************************/
+.banner {
+  padding-top: 128px;
+  padding-bottom: 64px;
+}
+
+.banner h1 {
+  margin-bottom: 31px;
+  margin-top: 8px;
+}
+
+.banner__content {
+  width: 39%;
+}
+
+.banner__image {
+  width: 43%;
+}
+
+.banner__image img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+/******************************* About us *******************************/
+.about-us {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.about-us__container {
+  background: #f4f5f5;
+  margin: 0 auto;
+  width: 1280px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.about-us__container h5 {
+  margin-left: 94px;
+  margin-top: 80px;
+}
+
+.about-us__container .container {
+  display: flex;
+  padding: 4px 94px 80px 94px;
+}
+
+.about-us__content:first-child {
+  padding-right: 30px;
+}
+
+.about-us__content:last-child {
+  padding-left: 30px;
+}
+
+.about-us__content h3 {
+  margin-bottom: 16px;
+}
+
+/****************************** proccess ******************************/
+.process {
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+
+.process h2 {
+  text-align: center;
+}
+
+.process .container {
+  margin-top: 48px;
+}
+
+.process__icon-row {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.process__circle {
+  width: 24px;
+  height: 24px;
+  background: #2405f2;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.process__dashed {
+  flex: 1;
+  border-top: 2px dashed #2405f2;
+  height: 0;
+  display: inline-block;
+}
+
+.process__item {
+  width: 25%;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.process__item h6 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+/****************************** Our Mission ******************************/
+.our-mission {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: #eef4fa;
+}
+
+.our-mission h5 {
+  margin-bottom: 16px;
+}
+
+.our-mission h3 {
+  margin-bottom: 16px;
+}
+
+.our-mission .container:not(:last-child) {
+  margin-bottom: 96px;
+}
+
+.our-mission__content {
+  width: 49%;
+}
+
+.our-mission__image {
+  width: 43%;
+}
+
+.our-mission__image img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+/****************************** Benefits ******************************/
+.benefits {
+  padding-top: 128px;
+  padding-bottom: 80px;
+}
+
+.benefits .container {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.benefits h2 {
+  text-align: center;
+  max-width: 41.5%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.benefits a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 28px;
+}
+
+.benefits__item {
+  width: 33%;
+  background: #f4f6fc;
+  padding: 48px;
+}
+
+.benefits__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits__logo-number {
+  width: auto;
+  min-width: 180px;
+  margin-right: 90px;
+}
+
+.benefits__logo-number h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #282938;
+  margin-bottom: 8px;
+}
+
+.benefits__logo-number p {
+  color: #8a8a8a;
+  font-size: 16px;
+  margin: 0;
+}
+
+.benefits__logo-list {
+  flex: 1;
+}
+
+.benefits__logo-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits__logo-list ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.benefits__logo-list ul li img {
+  width: 100%;
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+/****************************** our team ******************************/
+.our-team {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: #f4f6fc;
+}
+
+.our-team .container {
+  display: flex;
+  gap: 32px;
+}
+
+.our-team h2 {
+  text-align: center;
+  max-width: 41.5%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.our-team__item {
+  width: 25%;
+  padding: 48px 62px 32px;
+  text-align: center;
+  background: #fff;
+}
+
+.our-team__item h6 {
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+
+.our-team__image {
+  max-width: 168px;
+  max-height: 168px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team__image img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.our-team__image .overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    348.37deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: 0;
+  gap: 12px;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  padding-bottom: 28px;
+}
+
+.our-team__image:hover .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/****************************** Lets Talk ******************************/
+
+.talk {
+  padding-top: 96px;
+  background-color: #1c1e53;
+  color: #ffffff;
+}
+
+.talk .container {
+  justify-content: left;
+  display: flex;
+  gap: 260px;
+}
+
+.talk__contact__info {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.talk__contact__logo {
+  margin-bottom: 16px;
+}
+.talk__contact__info > p {
+  margin-bottom: 16px;
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-bottom: 68px;
+}
+
+.talk__contact__us {
+  background-color: #fcd980;
+  padding: 16px 36.96px;
+  display: flex;
+  align-items: center;
+  gap: 28.96px;
+  height: 95px;
+  width: 517px;
+}
+
+.contact__email p,
+.contact__number p {
+  width: 100%;
+}
+
+.talk__social {
+  width: 36%;
+  align-self: flex-start;
+}
+
+.talk__social h2 {
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.talk__social p {
+  width: 90%;
+  margin-bottom: 28px;
+  color: #ffffff;
+}
+
+.talk__social__links {
+  display: flex;
+  gap: 27px;
+}
+
+.talk__social__links i {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+/****************************** footer ******************************/
+
+.footer .container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer__links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__links a {
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #282938;
+  text-decoration: none;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  /* Navbar */
+  .navbar__logo {
+    margin-right: 20px;
+  }
+
+  .navbar__menu__list {
+    display: none;
+  }
+
+  /* Banner */
+  .banner {
+    padding-top: 64px;
+  }
+
+  .banner .container {
+    flex-direction: column;
+  }
+
+  .banner__content,
+  .banner__image {
+    width: 100%;
+  }
+
+  .banner h1 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  /* About Us */
+  .about-us__container {
+    width: 100%;
+  }
+
+  .about-us__container .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-us__content:first-child,
+  .about-us__content:last-child {
+    padding: 0;
+    width: 100%;
+  }
+
+  /* Process */
+  .process__item {
+    width: 50%;
+    margin-bottom: 32px;
+  }
+
+  /* Our Mission */
+  .our-mission .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .our-mission__content,
+  .our-mission__image {
+    width: 100%;
+  }
+
+  /* Benefits */
+  .benefits .container {
+    flex-wrap: wrap;
+  }
+
+  .benefits__item {
+    width: 48%;
+  }
+
+  .benefits h2 {
+    max-width: 80%;
+  }
+
+  /* Our Team */
+  .our-team .container {
+    flex-wrap: wrap;
+  }
+
+  .our-team__item {
+    width: 48%;
+    margin-bottom: 32px;
+  }
+
+  /* Talk Section */
+  .talk .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .talk__contact__info,
+  .talk__social {
+    width: 100%;
+  }
+
+  .talk__contact__us {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  /* Navbar */
+  .navbar__button-contact {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  /* Banner */
+  .banner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* Process */
+  .process__item {
+    width: 100%;
+  }
+
+  /* Benefits */
+  .benefits__item {
+    width: 100%;
+  }
+
+  .benefits h2 {
+    max-width: 100%;
+  }
+
+  .benefits__logos {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .benefits__logo-number {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .benefits__logo-list ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Our Team */
+  .our-team__item {
+    width: 100%;
+  }
+
+  /* Talk Section */
+  .talk__contact__us {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .talk__social__links {
+    justify-content: center;
+  }
+
+  /* Footer */
+  .footer__links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .footer__links a {
+    padding: 8px;
+  }
+}
